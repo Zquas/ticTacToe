@@ -195,6 +195,8 @@ restart.addEventListener('click', function(){
     move = 9;
     stopClicker = 0;
     compWin = 0;
+    turnPlayer = 0;
+    state.currentPlayer = 0;
     state.board = [
     [null, null, null],
     [null, null, null],
